@@ -1,0 +1,205 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;;
+    font-weight: 400;
+}
+
+.navBar{
+    height: 100px;
+    display: flex;
+    background-color: #271010;
+    border-radius: 10px;
+}
+
+.pic{
+    display:block;
+    padding: 15px 30px;
+}
+
+.prfPic{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+}  
+
+.navLists1 {
+    display: inline-block;
+    padding-left: 65%;
+}
+
+.navCntnts {
+    display: inline-block;
+    padding-top:25px ;
+}
+
+.listItems , a{
+    display: inline-flex;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+a:visited{
+    color:rgba(87, 124, 233, 0.729);
+}
+a:hover{
+    color: brown;
+    transition-duration: 0.5s;
+}
+
+.navBtn{
+    text-align: center;
+    padding-top: 2px;
+    border: none;
+    background: lime;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#cntctBotn:visited{
+    color: #eee;
+}
+
+.navBtn:hover{
+    height:60px;
+    width: 100px;
+    cursor: pointer;
+    background-color: aqua;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.home{
+    margin-bottom: 50px;
+}
+
+.pic1{
+    display: flex ;
+    padding-left: 50px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.p{
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.pic2 , .about{
+    background-color: #eee;
+    display: flex;
+}
+
+.pic22{
+    display: flex;
+    border-radius: 20px;
+    margin: 50px 0 50px 100px;
+    height: 250px;
+    width: 400px;
+    text-align: center;
+}
+h2{
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: center;
+}
+h2:hover{
+    padding-top: 50px;
+    background-color: aqua;
+    height: 100px;
+    width: 500px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 20px;
+    transition-duration: 2s;
+}
+
+.workCntnt{
+    margin-top: 10px;
+    padding: 100px 0;   
+    display: flex; 
+    text-align:  right;
+    font-weight: 700;
+    background-color: beige;
+}
+
+.pic3{
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.h41 {
+    display:flex;
+    text-align: left;
+    margin: 100px;
+    padding-top: 20px;
+}
+
+.h41:hover{
+    display: flex;
+    background-color: aqua;
+    line-height: 40px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 20px;
+    padding:50px 0;
+    border-radius: 10px;
+    font-weight: 600 ;
+}
+.forCnt{
+    background-color: #eee;
+    display: flex;
+}
+
+.contact{
+    justify-content: center;
+    display: block;
+    margin: 80px 180px 150px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#name , #mail , #mobNum{
+    border: 5px outset  yellow;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: rgba(30, 98, 162, 0.538);
+}
+#name{
+    padding-top: 10px;
+    display: block;
+}
+#mail{
+    padding-top: 10px;
+    display: block;
+}
+#mobNum{
+    padding-top: 10px;
+    display: block;
+}
+
+#cntctBtn{
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+    background: none;
+    background-color: limegreen;
+    height: 30px;
+    border-radius: 10px;
+}
+#cntctBtn:hover{
+    height: 50px;
+    width: 100px;
+    transition-duration: 1s;
+}
